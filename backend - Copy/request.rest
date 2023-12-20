@@ -1,0 +1,27 @@
+GET http://localhost:9000/users
+Authorization: Bearer 
+
+
+###
+POST  http://localhost:9000/users
+Content-Type: application/json
+
+{
+    "name" : "Taehyung kim",
+    "email": "email@gmail.com",
+    "password": "#654321001",
+    "confPassword": "#654321001"
+}
+
+###
+POST  http://localhost:9000/login
+Content-Type: application/json
+
+{
+    "email" : "email@gmail.com",
+    "password" : "#654321001"
+}
+
+
+###
+GET http://localhost:9000/token

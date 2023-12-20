@@ -1,0 +1,12 @@
+GET https://localhost:9000/users
+
+###
+POST https://localhost:9000/users
+Content-Type: application/json
+
+{
+    "name": "Amellia Iman",
+    "email": "i234@gmail.com",
+    "password": "gasmentara23#",
+    "confpassword":"gasmentara23#"
+}
